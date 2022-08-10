@@ -1,0 +1,25 @@
+
+.outer-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.job-content{
+  border: 1px solid rgb(34, 36, 34);
+  height: 3rem;
+  width: 40rem;
+  background-color: rgb(197, 199, 204);
+  margin-top: 1rem;
+  text-align: center;
+  padding: 1rem 2rem 3rem ;
+}
+
+.job-content:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
+  border-left: 2px solid var(--primary-color);
+}
+
+a{
+  text-decoration: none;
+}
